@@ -12,7 +12,7 @@ const SHELLY_CONFIG = {
    * https://shelly-XX-eu.shelly.cloud or .us depending on your region. Use the
    * server shown in your Shelly app under “Clave de autorización en la nube”.
    */
-  server: "https://shelly-100-eu.shelly.cloud",
+  server: "http://192.168.1.2
   /**
    * Device ID of your Shelly device. This is shown as "ID del dispositivo"
    * in the Shelly app. Do not include any extra spaces.
@@ -22,5 +22,5 @@ const SHELLY_CONFIG = {
    * Cloud authorization key for your device. Replace the placeholder below
    * with the long string shown in the Shelly app. KEEP THIS KEY PRIVATE.
    */
-    auth_key: "MjJjNmFhdWlk12B9BAE0340701A96384DAE95896047CAB501919E5C35AF503E899AB0B50C0E88FB85E3A1B9143ED"
+    auth_key: ""
 };
