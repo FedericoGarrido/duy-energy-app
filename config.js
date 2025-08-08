@@ -12,7 +12,7 @@ const SHELLY_CONFIG = {
    * https://shelly-XX-eu.shelly.cloud or .us depending on your region. Use the
    * server shown in your Shelly app under “Clave de autorización en la nube”.
    */
-  server: "http://192.168.",1.2
+server: "http://192.168.1.2",
   /**
    * Device ID of your Shelly device. This is shown as "ID del dispositivo"
    * in the Shelly app. Do not include any extra spaces.
