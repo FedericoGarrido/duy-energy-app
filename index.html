@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUY Energy</title>
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to the PWA manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Provide a default theme color for the app bar on mobile -->
+    <meta name="theme-color" content="#0078d7">
+</head>
+<body>
+    <header>
+        <h1>DUY Energy</h1>
+    </header>
+
+    <!-- Metric cards -->
+    <section class="cards">
+        <div class="card">
+            <h2>Consumo total</h2>
+            <p id="total">-- kWh</p>
+        </div>
+        <div class="card">
+            <h2>En pico</h2>
+            <p id="pico">-- kWh</p>
+        </div>
+        <div class="card">
+            <h2>En llano</h2>
+            <p id="llano">-- kWh</p>
+        </div>
+        <div class="card">
+            <h2>Índice buen uso</h2>
+            <p id="indice">-- %</p>
+        </div>
+    </section>
+
+    <!-- Control buttons -->
+    <section class="control">
+        <button id="btn-on">Encender</button>
+        <button id="btn-off">Apagar</button>
+    </section>
+
+    <!-- Include configuration first so app.js can read it -->
+    <script src="config.js"></script>
+    <!-- Include the main application logic -->
+    <script src="app.js"></script>
+</body>
+</html>
