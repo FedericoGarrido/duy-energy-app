@@ -22,5 +22,5 @@ const SHELLY_CONFIG = {
    * Cloud authorization key for your device. Replace the placeholder below
    * with the long string shown in the Shelly app. KEEP THIS KEY PRIVATE.
    */
-  auth_key: MjJjNmFhdWlk12B9BAE0340701A96384DAE95896047CAB501919E5C35AF503E899AB0B50C0E88FB85E3A1B9143ED
+    auth_key: "MjJjNmFhdWlk12B9BAE0340701A96384DAE95896047CAB501919E5C35AF503E899AB0B50C0E88FB85E3A1B9143ED"
 };
